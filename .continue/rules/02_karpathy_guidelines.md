@@ -2,7 +2,8 @@
 name: Engineering Guidelines
 description: Follow these engineering guidelines when reasoning about, modifying, or generating code.
 alwaysApply: false
-globs: "**/*"
+globs:
+  - "**/*"
 ---
 
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
