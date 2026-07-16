@@ -1,4 +1,4 @@
-# opencode config
+# Obey
 
 Personal [opencode](https://opencode.ai) configuration, synced across machines via Git.
 
