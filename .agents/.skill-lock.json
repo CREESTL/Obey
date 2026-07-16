@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-07-14T20:42:23.246Z",
+      "updatedAt": "2026-07-14T20:42:23.246Z"
+    },
+    "fastapi-templates": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/api-scaffolding/skills/fastapi-templates/SKILL.md",
+      "skillFolderHash": "87c553f9f78dd6ccd352572058b947886d0b9052",
+      "installedAt": "2026-07-15T13:31:05.856Z",
+      "updatedAt": "2026-07-15T13:31:05.856Z"
+    },
+    "fastapi-python": {
+      "source": "mindrally/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mindrally/skills.git",
+      "skillPath": "fastapi-python/SKILL.md",
+      "skillFolderHash": "e56436295fccaae0044ec74983246e25e3e4d900",
+      "installedAt": "2026-07-15T13:31:54.253Z",
+      "updatedAt": "2026-07-15T13:31:54.253Z"
+    },
+    "python-code-style": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-code-style/SKILL.md",
+      "skillFolderHash": "e5a0c7b40f1cff37ca3869b29291b6ee97d450e9",
+      "installedAt": "2026-07-15T13:33:26.920Z",
+      "updatedAt": "2026-07-15T13:33:26.920Z"
+    },
+    "async-python-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/async-python-patterns/SKILL.md",
+      "skillFolderHash": "993d10828bde72457893b68f6055274d5095558b",
+      "installedAt": "2026-07-15T13:34:17.013Z",
+      "updatedAt": "2026-07-15T13:34:17.013Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}
