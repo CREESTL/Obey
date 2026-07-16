@@ -45,6 +45,125 @@
       "skillFolderHash": "993d10828bde72457893b68f6055274d5095558b",
       "installedAt": "2026-07-15T13:34:17.013Z",
       "updatedAt": "2026-07-15T13:34:17.013Z"
+    },
+    "pytest-coverage": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/pytest-coverage/SKILL.md",
+      "skillFolderHash": "abd9a3fb4ce4642bcc016982cbf0afba0c8f7222",
+      "installedAt": "2026-07-16T19:36:05.872Z",
+      "updatedAt": "2026-07-16T19:36:05.872Z"
+    },
+    "python-type-safety": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-type-safety/SKILL.md",
+      "skillFolderHash": "bf3b765e5f348c6a0bcf786241a348f680b56d75",
+      "installedAt": "2026-07-16T19:38:34.957Z",
+      "updatedAt": "2026-07-16T19:38:34.957Z"
+    },
+    "python-project-structure": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-project-structure/SKILL.md",
+      "skillFolderHash": "70109b96fb8e73142730844acd8e6ffe125a2139",
+      "installedAt": "2026-07-16T19:39:01.969Z",
+      "updatedAt": "2026-07-16T19:39:01.969Z"
+    },
+    "python-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-testing-patterns/SKILL.md",
+      "skillFolderHash": "639d303a1187fe64e2538522ea25c5b8d3321763",
+      "installedAt": "2026-07-16T19:39:31.051Z",
+      "updatedAt": "2026-07-16T19:39:31.051Z"
+    },
+    "python-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-configuration/SKILL.md",
+      "skillFolderHash": "0cc4a2cb5392ef8bd97ece8cb4a589ec15801fc3",
+      "installedAt": "2026-07-16T19:40:04.100Z",
+      "updatedAt": "2026-07-16T19:40:04.100Z"
+    },
+    "python-background-jobs": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-background-jobs/SKILL.md",
+      "skillFolderHash": "3e52aa544e0102bf300af680cc4a10dda692d7e4",
+      "installedAt": "2026-07-16T19:41:12.482Z",
+      "updatedAt": "2026-07-16T19:41:12.482Z"
+    },
+    "python-design-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-design-patterns/SKILL.md",
+      "skillFolderHash": "a3d004c3b778ed0cb3a64a97aa942df06ac7a0db",
+      "installedAt": "2026-07-16T19:42:36.967Z",
+      "updatedAt": "2026-07-16T19:42:36.967Z"
+    },
+    "python-resource-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-resource-management/SKILL.md",
+      "skillFolderHash": "0eda93d44a0a23e73b3de4a3d2eed5ef47cf2a41",
+      "installedAt": "2026-07-16T19:43:44.478Z",
+      "updatedAt": "2026-07-16T19:43:44.478Z"
+    },
+    "python-performance-optimization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-performance-optimization/SKILL.md",
+      "skillFolderHash": "08c2e271829ec9131a5a0b5d484d1a6a332c8a30",
+      "installedAt": "2026-07-16T19:44:13.824Z",
+      "updatedAt": "2026-07-16T19:44:13.824Z"
+    },
+    "k8s-manifest-generator": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md",
+      "skillFolderHash": "cd4394586db8befaffa912ec9012b5857470cba4",
+      "installedAt": "2026-07-16T19:44:43.801Z",
+      "updatedAt": "2026-07-16T19:44:43.801Z"
+    },
+    "gitops-workflow": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/kubernetes-operations/skills/gitops-workflow/SKILL.md",
+      "skillFolderHash": "a3cb91f413faff1d3715c45cb4baf8338adaa039",
+      "installedAt": "2026-07-16T19:45:11.842Z",
+      "updatedAt": "2026-07-16T19:45:11.842Z"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "skillFolderHash": "c817f6f36acd483294144694a935a76d3e3eb101",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-16T19:46:13.188Z",
+      "updatedAt": "2026-07-16T19:46:13.188Z"
+    },
+    "handoff": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/handoff/SKILL.md",
+      "skillFolderHash": "ad03e8d4ea3cbbff66420eb7ba3cc375b5cbe1821a2449b53e863256cf5b5cde",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-07-16T19:47:20.225Z",
+      "updatedAt": "2026-07-16T19:47:20.225Z"
     }
   },
   "dismissed": {
