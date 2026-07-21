@@ -87,11 +87,9 @@ Before making changes:
 
 ## 11. Sub-Agents & Skills
 
-- Use sub-agents when they improve reliability or speed:
-  - parallel independent work
-  - research
-  - reviews
-  - isolated implementation tasks
+- **Delegate aggressively.** Offload work to sub-agents whenever possible to keep the main context lean and token-efficient. The less context the main agent burns on implementation details, the longer it can operate without compaction.
+  - Every task that fits a sub-agent's description should be delegated — reviews, testing, refactoring, docs, independent research, isolated implementation.
+  - A single user request that spans multiple concerns should fan out to sub-agents, not be worked through sequentially in the main context.
 - When using sub-agents, act as a coordinator, not an implementer: review their work, integrate outputs, verify results.
 - Use deep-dive/research sub-agents for open-ended investigation and for reviewing a plan before execution.
 - Identify plan steps that are independent and implement them in parallel with multiple sub-agents. Sequence only what has real dependencies.
