@@ -22,6 +22,18 @@ repo/
 
 Clone anywhere, then deploy files to the locations opencode reads them from.
 
+### Quick install (automated)
+
+Run the deploy script — it copies everything to the right places:
+
+```sh
+python install.py
+```
+
+### Manual install
+
+If you prefer to copy files by hand:
+
 ### 1. Global config → `~/.config/opencode/`
 
 Copy these into your opencode config directory:
