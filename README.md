@@ -2,6 +2,22 @@
 
 Personal [opencode](https://opencode.ai) configuration, synced across machines via Git.
 
+## File layout
+
+Where each repo path lands on the target machine:
+
+```
+repo/
+├── AGENTS.md            →  ~/.config/opencode/AGENTS.md
+├── opencode.jsonc       →  ~/.config/opencode/opencode.jsonc
+├── opencode/
+│   ├── agents/          →  ~/.config/opencode/agents/
+│   └── commands/        →  ~/.config/opencode/commands/
+├── tui.json             →  ~/.config/opencode/tui.json
+├── .agents/             →  ~/.agents/                     (skills, installed via skills.sh)
+└── .secrets/            →  ~/.config/opencode/.secrets/   (gitignored — recreate locally)
+```
+
 ## Setup on a new machine
 
 Clone anywhere, then deploy files to the locations opencode reads them from.
@@ -17,7 +33,19 @@ Copy these into your opencode config directory:
 cp AGENTS.md opencode.jsonc ~/.config/opencode/
 ```
 
-### 2. Skills → home directory
+### 2. Agents & commands → `~/.config/opencode/`
+
+Custom [agents](opencode/agents/) and [commands](opencode/commands/) live in the `opencode/` directory.
+
+Copy the entire `opencode/` folder so opencode picks them up:
+
+```sh
+cp -r opencode ~/.config/opencode/
+```
+
+### 3. Skills → home directory
+
+Skills live in `.agents/skills` (not `~/.config/opencode/skills`) because they are installed from [skills.sh](https://skills.sh), which installs to `~/.agents/skills` and offers no option to change the directory.
 
 Copy the `.agents/` folder into your home directory so skills load globally:
 
@@ -25,7 +53,15 @@ Copy the `.agents/` folder into your home directory so skills load globally:
 cp -r .agents ~/
 ```
 
-### 3. Secrets → `~/.config/opencode/.secrets/`
+### 4. TUI config → `~/.config/opencode/`
+
+`tui.json` holds keybinds and TUI preferences (theme, scroll, etc.). Copy it next to `opencode.jsonc`:
+
+```sh
+cp tui.json ~/.config/opencode/
+```
+
+### 5. Secrets → `~/.config/opencode/.secrets/`
 
 `opencode.jsonc` reads credentials via `{file:...}`:
 

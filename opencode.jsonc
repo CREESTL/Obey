@@ -24,5 +24,39 @@
             }
         }
     },
-    "model": "zai-org/GLM-5.2-FP8"
+    "model": "zai-org/GLM-5.2-FP8",
+    "permission": {
+        "read": "allow",
+        "edit": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "webfetch": "allow",
+        "websearch": "allow",
+        "task": "allow",
+        "skill": "allow",
+        "lsp": "allow",
+        "question": "allow",
+        "external_directory": "allow",
+        "doom_loop": "allow",
+        "bash": {
+            "*": "allow",
+
+            "rm *": "ask",
+            "rmdir *": "ask",
+
+            "git reset --hard *": "ask",
+            "git clean *": "ask",
+            "git push *": "ask",
+            "git commit *": "ask",
+
+            "pip install *": "ask",
+            "uv add *": "ask",
+            "npm install *": "ask",
+
+            "docker system prune *": "ask"
+        }
+    },
+    "share": "disabled",
+    "formatter": true,
+    "theme": "rosepine"
 }
