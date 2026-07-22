@@ -87,14 +87,23 @@ Before making changes:
 
 ## 11. Sub-Agents & Skills
 
-- **Delegate aggressively.** Offload work to sub-agents whenever possible to keep the main context lean and token-efficient. The less context the main agent burns on implementation details, the longer it can operate without compaction.
-  - Every task that fits a sub-agent's description should be delegated — reviews, testing, refactoring, docs, independent research, isolated implementation.
-  - A single user request that spans multiple concerns should fan out to sub-agents, not be worked through sequentially in the main context.
-- When using sub-agents, act as a coordinator, not an implementer: review their work, integrate outputs, verify results.
-- Use deep-dive/research sub-agents for open-ended investigation and for reviewing a plan before execution.
-- Identify plan steps that are independent and implement them in parallel with multiple sub-agents. Sequence only what has real dependencies.
-- Spot installed skills relevant to the task (see the `available_skills` list). Import them via the `skill` tool and apply their guidance whenever they fit — don't ignore a matching skill out of habit.
-- Keep coordination tight: state the plan, dispatch, collect, verify, merge.
+- **Delegate by default.** The main agent should act primarily as an orchestrator and reviewer, not as the default implementer.
+- Before implementing work directly, consider whether it can be delegated to a sub-agent. Prefer delegation whenever a suitable sub-agent exists.
+- Delegate all work that can be meaningfully isolated, including:
+  - implementation
+  - reviews
+  - testing
+  - refactoring
+  - documentation
+  - research
+  - investigation
+- A single user request spanning multiple independent concerns should be split across sub-agents and run in parallel where possible.
+- Keep direct implementation in the main agent for:
+  - trivial changes where delegation overhead exceeds the work
+  - coordination and integration
+  - reviewing sub-agent output
+  - resolving conflicts between outputs
+  - final verification
 
 ## 12. Planning & Plan Files
 
