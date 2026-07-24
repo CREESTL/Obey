@@ -25,6 +25,14 @@
         }
     },
     "model": "zai-org/GLM-5.2-FP8",
+    "agents": {
+        "plan": {
+            "model": "deepseek-ai/DeepSeek-V4-Flash"
+        },
+        "build": {
+            "model": "zai-org/GLM-5.2-FP8"
+        }
+    },
     "permission": {
         "read": "allow",
         "edit": "allow",
@@ -58,5 +66,5 @@
     },
     "share": "disabled",
     "formatter": true,
-    "theme": "rosepine"
+    "theme": "everforest"
 }
