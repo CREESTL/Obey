@@ -9,28 +9,25 @@
                 "apiKey": "{file:.secrets/api_key}"
             },
             "models": {
-                "Qwen/Qwen3.6-35B-A3B-FP8": {
-                    "name": "Qwen/Qwen3.6-35B-A3B-FP8"
-                },
-                "deepseek-ai/DeepSeek-V4-Flash": {
-                    "name": "deepseek-ai/DeepSeek-V4-Flash"
-                },
                 "zai-org/GLM-5.2-FP8": {
-                    "name": "zai-org/GLM-5.2-FP8"
+                    "name": "Alfagen-GLM-5.2-FP8"
                 },
                 "deepseek-ai/DeepSeek-V4-Pro": {
-                    "name": "deepseek-ai/DeepSeek-V4-Pro"
-                }
+                    "name": "Alfagen-DeepSeek-V4-Pro"
+                },
+                "deepseek-ai/DeepSeek-V4-Flash": {
+                    "name": "Alfagen-DeepSeek-V4-Flash"
+                },
             }
         }
     },
     "model": "zai-org/GLM-5.2-FP8",
-    "agents": {
+    "agent": {
         "plan": {
-            "model": "deepseek-ai/DeepSeek-V4-Flash"
+            "model": "alfagen/deepseek-ai/DeepSeek-V4-Flash"
         },
         "build": {
-            "model": "zai-org/GLM-5.2-FP8"
+            "model": "alfagen/zai-org/GLM-5.2-FP8"
         }
     },
     "permission": {
