@@ -24,10 +24,10 @@
     "model": "zai-org/GLM-5.2-FP8",
     "agent": {
         "plan": {
-            "model": "alfagen/deepseek-ai/DeepSeek-V4-Flash"
+            "model": "alfagen/zai-org/GLM-5.2-FP8"
         },
         "build": {
-            "model": "alfagen/zai-org/GLM-5.2-FP8"
+            "model": "alfagen/deepseek-ai/DeepSeek-V4-Flash"
         }
     },
     "permission": {
